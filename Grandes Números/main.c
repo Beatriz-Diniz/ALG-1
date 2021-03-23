@@ -7,12 +7,10 @@ int main(){
   char n1[50] = {'\0'}, n2[50] = {'\0'};
   char op[4]={'\0'};
   /*t =  numero de operacoes
-   *n1 = numero de pessoas
-   *n2 = indice de sorteio
    *op = operacao a ser realizada*/
   scanf("%d", &t);
   lista_t *l = criar();
-  /*para encontrar o sobrevivente de cada acao*/
+  /*para inserir a quantidade determinada de casos*/
   for(i = 1; i<=t; i++){
     
     scanf("%s", op);
